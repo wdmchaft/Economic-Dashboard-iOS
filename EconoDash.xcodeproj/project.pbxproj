@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0C89B24142C27360092D6D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C89B23142C27360092D6D2 /* UIKit.framework */; };
+		D0C89B26142C27360092D6D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C89B25142C27360092D6D2 /* Foundation.framework */; };
+		D0C89B28142C27360092D6D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C89B27142C27360092D6D2 /* CoreGraphics.framework */; };
+		D0C89B2E142C27360092D6D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0C89B2C142C27360092D6D2 /* InfoPlist.strings */; };
+		D0C89B30142C27360092D6D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C89B2F142C27360092D6D2 /* main.m */; };
+		D0C89B34142C27360092D6D2 /* EconoDashAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C89B33142C27360092D6D2 /* EconoDashAppDelegate.m */; };
+		D0C89B37142C27360092D6D2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0C89B35142C27360092D6D2 /* MainWindow.xib */; };
+		D0C89B3A142C27360092D6D2 /* EconoDashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C89B39142C27360092D6D2 /* EconoDashViewController.m */; };
+		D0C89B3D142C27360092D6D2 /* EconoDashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0C89B3B142C27360092D6D2 /* EconoDashViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0C89B1F142C27360092D6D2 /* EconoDash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EconoDash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C89B23142C27360092D6D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0C89B25142C27360092D6D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0C89B27142C27360092D6D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0C89B2B142C27360092D6D2 /* EconoDash-Info.plist */ = {isa = PBXFileReference; path = "EconoDash-Info.plist"; sourceTree = "<group>"; };
+		D0C89B2D142C27360092D6D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0C89B2F142C27360092D6D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0C89B31142C27360092D6D2 /* EconoDash-Prefix.pch */ = {isa = PBXFileReference; path = "EconoDash-Prefix.pch"; sourceTree = "<group>"; };
+		D0C89B32142C27360092D6D2 /* EconoDashAppDelegate.h */ = {isa = PBXFileReference; path = EconoDashAppDelegate.h; sourceTree = "<group>"; };
+		D0C89B33142C27360092D6D2 /* EconoDashAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EconoDashAppDelegate.m; sourceTree = "<group>"; };
+		D0C89B36142C27360092D6D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D0C89B38142C27360092D6D2 /* EconoDashViewController.h */ = {isa = PBXFileReference; path = EconoDashViewController.h; sourceTree = "<group>"; };
+		D0C89B39142C27360092D6D2 /* EconoDashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EconoDashViewController.m; sourceTree = "<group>"; };
+		D0C89B3C142C27360092D6D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EconoDashViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0C89B1C142C27360092D6D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C89B24142C27360092D6D2 /* UIKit.framework in Frameworks */,
+				D0C89B26142C27360092D6D2 /* Foundation.framework in Frameworks */,
+				D0C89B28142C27360092D6D2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0C89B14142C27360092D6D2 = {
+			isa = PBXGroup;
+			children = (
+				D0C89B29142C27360092D6D2 /* EconoDash */,
+				D0C89B22142C27360092D6D2 /* Frameworks */,
+				D0C89B20142C27360092D6D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0C89B20142C27360092D6D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0C89B1F142C27360092D6D2 /* EconoDash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0C89B22142C27360092D6D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0C89B23142C27360092D6D2 /* UIKit.framework */,
+				D0C89B25142C27360092D6D2 /* Foundation.framework */,
+				D0C89B27142C27360092D6D2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0C89B29142C27360092D6D2 /* EconoDash */ = {
+			isa = PBXGroup;
+			children = (
+				D0C89B32142C27360092D6D2 /* EconoDashAppDelegate.h */,
+				D0C89B33142C27360092D6D2 /* EconoDashAppDelegate.m */,
+				D0C89B35142C27360092D6D2 /* MainWindow.xib */,
+				D0C89B38142C27360092D6D2 /* EconoDashViewController.h */,
+				D0C89B39142C27360092D6D2 /* EconoDashViewController.m */,
+				D0C89B3B142C27360092D6D2 /* EconoDashViewController.xib */,
+				D0C89B2A142C27360092D6D2 /* Supporting Files */,
+			);
+			path = EconoDash;
+			sourceTree = "<group>";
+		};
+		D0C89B2A142C27360092D6D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0C89B2B142C27360092D6D2 /* EconoDash-Info.plist */,
+				D0C89B2C142C27360092D6D2 /* InfoPlist.strings */,
+				D0C89B2F142C27360092D6D2 /* main.m */,
+				D0C89B31142C27360092D6D2 /* EconoDash-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0C89B1E142C27360092D6D2 /* EconoDash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C89B40142C27360092D6D2 /* Build configuration list for PBXNativeTarget "EconoDash" */;
+			buildPhases = (
+				D0C89B1B142C27360092D6D2 /* Sources */,
+				D0C89B1C142C27360092D6D2 /* Frameworks */,
+				D0C89B1D142C27360092D6D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EconoDash;
+			productName = EconoDash;
+			productReference = D0C89B1F142C27360092D6D2 /* EconoDash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0C89B16142C27360092D6D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = D0C89B19142C27360092D6D2 /* Build configuration list for PBXProject "EconoDash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0C89B14142C27360092D6D2;
+			productRefGroup = D0C89B20142C27360092D6D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0C89B1E142C27360092D6D2 /* EconoDash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0C89B1D142C27360092D6D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C89B2E142C27360092D6D2 /* InfoPlist.strings in Resources */,
+				D0C89B37142C27360092D6D2 /* MainWindow.xib in Resources */,
+				D0C89B3D142C27360092D6D2 /* EconoDashViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0C89B1B142C27360092D6D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C89B30142C27360092D6D2 /* main.m in Sources */,
+				D0C89B34142C27360092D6D2 /* EconoDashAppDelegate.m in Sources */,
+				D0C89B3A142C27360092D6D2 /* EconoDashViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0C89B2C142C27360092D6D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C89B2D142C27360092D6D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0C89B35142C27360092D6D2 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C89B36142C27360092D6D2 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D0C89B3B142C27360092D6D2 /* EconoDashViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C89B3C142C27360092D6D2 /* en */,
+			);
+			name = EconoDashViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0C89B3E142C27360092D6D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0C89B3F142C27360092D6D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0C89B41142C27360092D6D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EconoDash/EconoDash-Prefix.pch";
+				INFOPLIST_FILE = "EconoDash/EconoDash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0C89B42142C27360092D6D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EconoDash/EconoDash-Prefix.pch";
+				INFOPLIST_FILE = "EconoDash/EconoDash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0C89B19142C27360092D6D2 /* Build configuration list for PBXProject "EconoDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C89B3E142C27360092D6D2 /* Debug */,
+				D0C89B3F142C27360092D6D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C89B40142C27360092D6D2 /* Build configuration list for PBXNativeTarget "EconoDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C89B41142C27360092D6D2 /* Debug */,
+				D0C89B42142C27360092D6D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0C89B16142C27360092D6D2 /* Project object */;
+}
