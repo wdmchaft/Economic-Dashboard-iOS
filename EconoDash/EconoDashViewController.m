@@ -267,9 +267,9 @@
     [fullString release];
     
     //NSLog entire array for debug
-    for (int i = 0; i < ([numbers count]); i++)
-        NSLog(@"[numbers objectAtIndex:%d] = %@", i , [numbers objectAtIndex:i]);
-    
+//    for (int i = 0; i < ([numbers count]) - 1; i++)
+//        NSLog(@"[numbers objectAtIndex:%d] = %@", i , [numbers objectAtIndex:i]);
+//    
     if ([numbers count] < 37) {
         [self launchMessage];
     } else {
@@ -309,7 +309,7 @@
     homeSalesNewCurrent.text = [numbers objectAtIndex:35];
     homeSalesNewLastYear.text = [numbers objectAtIndex:36];
     homeSalesMonthNew.text = [numbers objectAtIndex:37];
-    jobsMonth.text = [numbers objectAtIndex:38];
+    jobsMonth.text = nil;
     
     double a = [[numbers objectAtIndex:2] doubleValue];
     if (a > 0)
